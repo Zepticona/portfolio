@@ -1,0 +1,26 @@
+.SidebarContainer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.SidebarContainer li{
+    color: white;
+    font-size: 24px;
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    font-size: 30px;
+}
+.SidebarContainer li:hover {
+    background-color: orange;
+}
+.SidebarContainer a {
+    color: white;
+}
+.SidebarContainer a:hover {
+    text-decoration: none;
+    color: white;
+}
