@@ -3,36 +3,39 @@ import NavigationBar from '../Common/NavigationBar/NavigationBar';
 import StickySidebar from '../Common/StickySidebar/StickySidebar';
 import classes from './projects.module.css'
 import bgImg from '../../assets/bg.jpg'
-import ProjectModal from './ProjectModal/ProjectModal';
 import { Col, Container, Row } from 'react-bootstrap';
+import ProjectModal1 from './ProjectModal1/ProjectModal1';
+import ProjectModal2 from './ProjectModal2/ProjectModal2';
+import ProjectModal3 from './ProjectModal3/ProjectModal3';
+import ProjectModal4 from './ProjectModal4/ProjectModal4';
+import ProjectModal5 from './ProjectModal5/ProjectModal5';
 const Projects = () => {
     return (
         <div className={classes.ProjectsContainer}>
             <img src={bgImg} className={classes.bgImg} alt=""/>
             <NavigationBar></NavigationBar>
             <main>
-                <h2>This is projects section.</h2>
                 <StickySidebar></StickySidebar>
                 <Container>
                     <Row>
-                        <Col md={4} style={{'border': '1px solid red', 'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
-                        <ProjectModal></ProjectModal>
+                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                            <ProjectModal1></ProjectModal1>
                         </Col>
-                        <Col md={4} style={{'border': '1px solid red', 'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
-                        <ProjectModal></ProjectModal>
+                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                            <ProjectModal2></ProjectModal2>
                         </Col>
-                        <Col md={4} style={{'border': '1px solid red', 'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
-                        <ProjectModal></ProjectModal>
+                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                            <ProjectModal3></ProjectModal3>
                         </Col>
-                        <Col md={4} style={{'border': '1px solid red', 'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
-                        <ProjectModal></ProjectModal>
+                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                            <ProjectModal4></ProjectModal4>
                         </Col>
-                        <Col md={4} style={{'border': '1px solid red', 'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
-                        <ProjectModal></ProjectModal>
+                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                            <ProjectModal5></ProjectModal5>
                         </Col>
                     </Row>
                 </Container>
-                <ProjectModal></ProjectModal>
+                
             </main>
         </div>
     );

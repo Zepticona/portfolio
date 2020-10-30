@@ -2,27 +2,24 @@ import Button from 'react-bootstrap/Button';
 import React from 'react';
 import { Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import classes from './navigationBar.module.css'
+import { Link } from 'react-router-dom';
 const NavigationBar = () => {
     return (
         <Navbar expand="lg" className={classes.navbarContaier}>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand>
+                <Link to="/home">Shahriar Sakil</Link>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                    </NavDropdown>
+                <Nav className="ml-auto">
+                    <Link to="/home">Home</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/Contact">Contact</Link>
+                    <Link to="/about">About Me</Link>
+                    <Link to="/blogs">Blogs</Link>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=17ywo3hP8Z7oSUeNEK7J5izHmPWEwaLbc">Resume</a>
+                    
                 </Nav>
-                <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-success">Search</Button>
-                </Form>
             </Navbar.Collapse>
         </Navbar>
         

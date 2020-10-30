@@ -10,7 +10,11 @@ const StickySidebar = () => {
             <li><a href="https://www.github.com/zepticona"><FontAwesomeIcon icon={faGithub} /></a></li>
             <li><a href="https://www.linkedin.com/in/zepticona"><FontAwesomeIcon icon={faLinkedin} /></a></li>
             <li><Link to="/contact"><FontAwesomeIcon icon={faEnvelope} /></Link></li>
-            <li><FontAwesomeIcon icon={faFileDownload} /></li>
+            <li>
+                <a href="https://drive.google.com/uc?export=download&amp;id=17ywo3hP8Z7oSUeNEK7J5izHmPWEwaLbc">
+                    <FontAwesomeIcon icon={faFileDownload} />
+                </a>
+            </li>
         </div>
     );
 };
