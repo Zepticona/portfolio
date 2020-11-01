@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Modal from 'react-modal';
 import classes from './projectModal1.module.css'
 import ProjectImages1 from './ProjectImages1.js/ProjectImages1';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const ProjectModal1 = () => {
     const customStyles = {
@@ -40,12 +41,12 @@ const ProjectModal1 = () => {
                 style={customStyles}
                 contentLabel="Example Modal"
             >
-
-                <div style={{"display": 'flex', 'width': '1200px', 'background': 'gray', 'height': '600px'}}>
-                    <div style={{'background': 'red', 'width': '55%'}}>
+                <Container>
+                <Row style={{'background': 'gray'}}>
+                    <Col md={7} className={classes.leftColumn} style={{'background': 'red'}}>
                         <ProjectImages1></ProjectImages1>
-                    </div>
-                    <div style={{'background': '#353943', 'width': '45%'}} className={classes.projectDetailContainer}>
+                    </Col>
+                    <Col md={5} style={{'background': '#353943'}} className={classes.projectDetailContainer}>
                         <div className={classes.projectDetailHeader}>
                             <div className={classes.projectTitle}>
                                 <h3>Creative Agency</h3>
@@ -80,8 +81,9 @@ const ProjectModal1 = () => {
                             <a href="https://github.com/Zepticona/creative-agency-client" target="_blank" >Client Code</a>
                             <a href="https://github.com/Zepticona/creative-agency-server" target="_blank" >Server Code</a>
                         </div>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
+                </Container>
                 {/* <button onClick={closeModal}>close</button>
                 <div>I am a modal</div> */}
                 

@@ -18,19 +18,19 @@ const Projects = () => {
                 <StickySidebar></StickySidebar>
                 <Container>
                     <Row>
-                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                        <Col sm={6} md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
                             <ProjectModal1></ProjectModal1>
                         </Col>
-                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                        <Col sm={6} md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
                             <ProjectModal2></ProjectModal2>
                         </Col>
-                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                        <Col sm={6} md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
                             <ProjectModal3></ProjectModal3>
                         </Col>
-                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                        <Col sm={6} md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
                             <ProjectModal4></ProjectModal4>
                         </Col>
-                        <Col md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                        <Col sm={6} md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
                             <ProjectModal5></ProjectModal5>
                         </Col>
                     </Row>

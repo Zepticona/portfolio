@@ -3,7 +3,8 @@ import { useState } from 'react';
 import Modal from 'react-modal';
 import ProjectImages2 from './ProjectImages2.js/ProjectImages2';
 import classes from './projectModal2.module.css'
-
+import { Col, Container, Row } from 'react-bootstrap';
+ 
 const ProjectModal2 = () => {
     const customStyles = {
         content: {
@@ -41,11 +42,12 @@ const ProjectModal2 = () => {
                 contentLabel="Example Modal"
             >
 
-                <div style={{"display": 'flex', 'width': '1200px', 'background': 'gray', 'height': '600px'}}>
-                    <div style={{'background': 'red', 'width': '55%'}}>
+            <Container>
+                <Row style={{'background': 'gray'}}>
+                    <Col md={7} className={classes.leftColumn} style={{'background': 'red'}}>
                         <ProjectImages2></ProjectImages2>
-                    </div>
-                    <div style={{'background': '#353943', 'width': '45%'}} className={classes.projectDetailContainer}>
+                        </Col>
+                    <Col md={5} style={{'background': '#353943'}} className={classes.projectDetailContainer}>
                         <div className={classes.projectDetailHeader}>
                             <div className={classes.projectTitle}>
                                 <h3>Volunteer Network</h3>
@@ -80,8 +82,9 @@ const ProjectModal2 = () => {
                             <a href="https://github.com/Zepticona/volunteer-network-client" target="_blank" >Client Code</a>
                             <a href="https://github.com/Zepticona/volunteer-network-server" target="_blank" >Server Code</a>
                         </div>
-                    </div>
-                </div>
+                        </Col>
+                </Row>
+                </Container>
                 {/* <button onClick={closeModal}>close</button>
                 <div>I am a modal</div> */}
                 

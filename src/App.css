@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.navbar-toggler-icon {
+  color: #b33838;
+  background-color: #ffffff !important;
+  /* background: none; */
+  border-radius: 5px;
+}

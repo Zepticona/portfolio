@@ -18,10 +18,9 @@ const NavigationBar = () => {
                     <Link to="/about">About Me</Link>
                     <Link to="/blogs">Blogs</Link>
                     <a href="https://drive.google.com/uc?export=download&amp;id=17ywo3hP8Z7oSUeNEK7J5izHmPWEwaLbc">Resume</a>
-                    
                 </Nav>
             </Navbar.Collapse>
-        </Navbar>
+        </Navbar> 
         
     );
 };

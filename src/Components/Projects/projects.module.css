@@ -16,3 +16,14 @@
     left: 0;
     z-index: -100;
 }
+.carouselItem {
+    height: 600px;
+}
+@media only screen and (max-width: 991px) {
+    .projectImg {
+        height: 415px;
+    }
+    .carouselItem {
+        height: auto;
+    }
+}

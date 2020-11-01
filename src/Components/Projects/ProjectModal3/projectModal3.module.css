@@ -11,6 +11,7 @@
 .projectDetailContainer{
     color: white;
     padding: 15px;
+    padding-bottom: 0;
 }
 .projectDetailContainer p, .projectDetailContainer li {
     color: #b3bac7;
@@ -33,7 +34,8 @@
     color: gray;
 }
 .projectLinks {
-    margin-top: 60px;
+    margin-top: 30px;
+    padding-bottom: 10px;
 }
 .projectLinks a {
     background: #BBBCC0;
@@ -67,4 +69,20 @@
 }
 .ModalContainer:hover .moreInfoBtn{
     display: inline-block;
+}
+.leftColumn {
+    padding: 0 !important;
+}
+@media only screen and (max-width: 991px) {
+    .projectFeatures {
+        display: none;
+    }
+    .projectIntro {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .leftColumn {
+        display: none;
+    }
 }
