@@ -78,7 +78,7 @@ const ProjectModal2 = () => {
                             <li>All dynamic data(volunteer work, registrations) are loaded from the database.</li>
                         </div>
                         <div className={classes.projectLinks}>
-                            <a href="https://volunteering-app-57399.web.app/home" target="_blank"> Visit Site</a>
+                            <a href="https://volunteering-app-57399.web.app/" target="_blank"> Visit Site</a>
                             <a href="https://github.com/Zepticona/volunteer-network-client" target="_blank" >Client Code</a>
                             <a href="https://github.com/Zepticona/volunteer-network-server" target="_blank" >Server Code</a>
                         </div>
