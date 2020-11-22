@@ -9,6 +9,7 @@ import ProjectModal2 from './ProjectModal2/ProjectModal2';
 import ProjectModal3 from './ProjectModal3/ProjectModal3';
 import ProjectModal4 from './ProjectModal4/ProjectModal4';
 import ProjectModal5 from './ProjectModal5/ProjectModal5';
+import ProjectModal6 from './ProjectModal6/ProjectModal6';
 const Projects = () => {
     return (
         <div className={classes.ProjectsContainer}>
@@ -18,6 +19,9 @@ const Projects = () => {
                 <StickySidebar></StickySidebar>
                 <Container>
                     <Row>
+                        <Col sm={6} md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
+                            <ProjectModal6></ProjectModal6>
+                        </Col>
                         <Col sm={6} md={4} style={{'margin-bottom': '15px', 'padding': '10px', 'height': '300px'}}>
                             <ProjectModal1></ProjectModal1>
                         </Col>
