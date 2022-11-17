@@ -1,5 +1,4 @@
 import React from 'react' 
-import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,6 +10,7 @@ import ContactForm from './Components/Common/ContactForm/ContactForm';
 import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
 import Resume from './Components/Resume/Resume';
+import './App.css';
 
 function App() {
   return (

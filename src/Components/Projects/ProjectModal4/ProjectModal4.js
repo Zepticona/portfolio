@@ -50,32 +50,32 @@ const ProjectModal4 = () => {
                         <Col md={5} style={{ 'background': '#353943' }} className={classes.projectDetailContainer}>
                             <div className={classes.projectDetailHeader}>
                                 <div className={classes.projectTitle}>
-                                    <h3>Travel Agency</h3>
+                                    <h3>Trillo</h3>
                                 </div>
                                 <div>
-                                    <button onClick={closeModal}>close modal</button>
+                                    <button onClick={closeModal}>X</button>
                                 </div>
                             </div>
                             <div className={classes.projectTechnologies}>
-                                <span>HTML & CSS</span>
-                                <span>Javascript</span>
-                                <span>ReactJS</span>
-                                <span>React Bootstrap</span>
-                                <span>Firebase</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>SASS</span>
+                                <span>Block Element Model(BEM) Architecture</span>
+                                <span>Flexbox</span>
                             </div>
                             <div className={classes.projectIntro}>
                                 <h4>About</h4>
-                                <p>A front end app for travel agencies. Customers can book a trip at a certain range of dates. Multiple authentication systems have been added here. The functionality of the app was the main focus, not the looks.</p>
+                                <p>A fictional hotel booking application.</p>
                             </div>
                             <div className={classes.projectFeatures}>
                                 <h4>Features</h4>
-                                <li>Select any of the 3 tourist destinations.</li>
-                                <li>Enter a range of date to book the trip.</li>
-                                <li>Users need to login via gmail, facebook account, or create an account on the site and use that email and password.</li>
+                                <li>Used the Block Element Model css naming convention.</li>
+                                <li>Complex use of CSS Flexbox</li>
+                                <li>Responsive design.</li>
                             </div>
                             <div className={classes.projectLinks}>
-                                <a href="https://travelguru-6558a.web.app/" target="_blank"> Visit Site</a>
-                                <a href="https://github.com/Zepticona/travel-guru-project" target="_blank" >Client Code</a>
+                                <a href="https://zepticona.github.io/trillo/" target="_blank"> Visit Site</a>
+                                <a href="https://github.com/Zepticona/trillo" target="_blank" >Client Code</a>
                             </div>
                         </Col>
                     </Row>

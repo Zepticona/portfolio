@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import Modal from 'react-modal';
-import ProjectImages2 from './ProjectImages3.js/ProjectImages3';
+import ProjectImages3 from './ProjectImages3.js/ProjectImages3';
 import classes from './projectModal3.module.css'
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -25,7 +25,6 @@ const ProjectModal3 = () => {
 
     function afterOpenModal() {
         // references are now sync'd and can be accessed.
-
     }
 
     function closeModal() {
@@ -41,46 +40,45 @@ const ProjectModal3 = () => {
                 style={customStyles}
                 contentLabel="Example Modal"
             >
-
                 <Container>
                     <Row style={{ 'background': 'gray' }}>
                         <Col md={7} className={classes.leftColumn} style={{ 'background': 'red' }}>
-                            <ProjectImages2></ProjectImages2>
+                            <ProjectImages3></ProjectImages3>
                         </Col>
                         <Col md={5} style={{ 'background': '#353943' }} className={classes.projectDetailContainer}>
                             <div className={classes.projectDetailHeader}>
                                 <div className={classes.projectTitle}>
-                                    <h3>Pin Matcher</h3>
+                                    <h3>Trillo</h3>
                                 </div>
                                 <div>
-                                    <button onClick={closeModal}>close modal</button>
+                                    <button onClick={closeModal}>X</button>
                                 </div>
                             </div>
                             <div className={classes.projectTechnologies}>
-                                <span>HTML & CSS</span>
-                                <span>Vanilla Javascript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>SASS</span>
+                                <span>Block Element Model(BEM) Architecture</span>
+                                <span>Flexbox</span>
                             </div>
                             <div className={classes.projectIntro}>
                                 <h4>About</h4>
-                                <p>Simple app that generates a random 4 digit pin and matches with the user input.</p>
+                                <p>A fictional hotel booking application.</p>
                             </div>
                             <div className={classes.projectFeatures}>
                                 <h4>Features</h4>
-                                <li>Generate a random 4 digit pin.</li>
-                                <li>Users get 3 tries to enter the correct pin.</li>
-                                <li>Depending on the trial result, different messages are displayed on the UI.</li>
+                                <li>Used the Block Element Model css naming convention.</li>
+                                <li>Complex use of CSS Flexbox</li>
+                                <li>Responsive design.</li>
                             </div>
                             <div className={classes.projectLinks}>
-                                <a href="https://zepticona.github.io/pin-matcher-project/" target="_blank"> Visit Site</a>
-                                <a href="https://github.com/Zepticona/pin-matcher-project" target="_blank" >Client Code</a>
+                                <a href="https://zepticona.github.io/trillo/" target="_blank"> Visit Site</a>
+                                <a href="https://github.com/Zepticona/trillo" target="_blank" >Client Code</a>
                             </div>
 
                         </Col>
                     </Row>
                 </Container>
-                {/* <button onClick={closeModal}>close</button>
-                <div>I am a modal</div> */}
-
             </Modal>
 
         </div>

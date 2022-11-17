@@ -5,7 +5,7 @@ import NavigationBar from '../Common/NavigationBar/NavigationBar';
 import StickySidebar from '../Common/StickySidebar/StickySidebar';
 import { Container } from 'react-bootstrap';
 import classes from './home.module.css';
-import sakil from '../../assets/sakil.jpg';
+import sakil from '../../assets/sakil-img.jpg';
 import { Link } from 'react-router-dom';
 const Home = () => {
     return (
@@ -20,6 +20,7 @@ const Home = () => {
                 <h2 style={{'color': 'white'}}>Hi, I'm <span style={{'color': '#E31B6D'}}>Shahriar Islam Sakil</span>, <br/> A frontend web developer.</h2>
                 <span><Link to="/contact">Send me a Message</Link></span>
                 <a style={{"marginLeft": '20px'}} href="https://drive.google.com/uc?export=download&amp;id=17ywo3hP8Z7oSUeNEK7J5izHmPWEwaLbc">Download My Resume</a>
+                {/* https://drive.google.com/file/d/17ywo3hP8Z7oSUeNEK7J5izHmPWEwaLbc/view?usp=share_link */}
                 </div>
             </Container>
             </div>
