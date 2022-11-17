@@ -50,37 +50,36 @@ const ProjectModal2 = () => {
                     <Col md={5} style={{'background': '#353943'}} className={classes.projectDetailContainer}>
                         <div className={classes.projectDetailHeader}>
                             <div className={classes.projectTitle}>
-                                <h3>Volunteer Network</h3>
+                                <h3>Fun Findrr</h3>
                             </div>
                             <div>
-                                <button onClick={closeModal}>close modal</button>
+                                <button onClick={closeModal}>X</button>
                             </div>
                         </div>
                         <div className={classes.projectTechnologies}>
-                            <span>HTML & CSS</span>
-                            <span>Javascript</span>
-                            <span>ReactJS</span>
-                            <span>NodeJS</span>
-                            <span>Express</span>
+                            <span>NextJS</span>
+                            <span>Nodejs</span>
+                            <span>ExpressJS</span>
                             <span>MongoDB</span>
-                            <span>React Bootstrap</span>
-                            <span>Heroku</span>
-                            <span>Firebase</span>
+                            <span>Mongoose</span>
+                            <span>Google Firebase</span>
+                            <span>Antd, MaterialUI</span>
+                            <span>Cloudinary</span>
                         </div>
                         <div className={classes.projectIntro}>
                             <h4>About</h4>
-                            <p>Full-stack web app for users to register on volunteering work and open admin panel to monitor registrations.</p>
+                            <p>A fictional adult-content creators directory, where content creators would set up their account with information like sex, genre, location, etc., and users can filter them down.</p>
                         </div>
                         <div className={classes.projectFeatures}>
                             <h4>Features</h4>
-                            <li>Register at works, view all personal registrations, and cancel any registration.</li>
-                            <li>Admins can see all user registrations, delete any registration, and add new volunteer work.</li>
-                            <li>All dynamic data(volunteer work, registrations) are loaded from the database.</li>
+                            <li>Multiple choice questionnaire, all custom coded.</li>
+                            <li>Option to create an account, or sign up with gmail.</li>
+                            <li>Content creators can update account/profile with photos, referral links, bios, websites, etc. </li>
                         </div>
                         <div className={classes.projectLinks}>
-                            <a href="https://volunteering-app-57399.web.app/" target="_blank"> Visit Site</a>
-                            <a href="https://github.com/Zepticona/volunteer-network-client" target="_blank" >Client Code</a>
-                            <a href="https://github.com/Zepticona/volunteer-network-server" target="_blank" >Server Code</a>
+                            <a href="https://fun-findrr-web.vercel.app/" target="_blank"> Visit Site</a>
+                            <a href="https://github.com/Zepticona/funFindrr-web" target="_blank" >Client Code</a>
+                            <a href="https://github.com/Zepticona/upwork-funfindrr" target="_blank" >Server Code</a>
                         </div>
                         </Col>
                 </Row>

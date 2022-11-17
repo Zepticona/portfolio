@@ -52,7 +52,7 @@ const ProjectModal1 = () => {
                                 <h3>Creative Agency</h3>
                             </div>
                             <div>
-                                <button onClick={closeModal}>close modal</button>
+                                <button onClick={closeModal}>X</button>
                             </div>
                         </div>
                         <div className={classes.projectTechnologies}>
@@ -63,12 +63,12 @@ const ProjectModal1 = () => {
                             <span>Express</span>
                             <span>MongoDB</span>
                             <span>React Bootstrap</span>
-                            <span>Heroku</span>
+                            <span>Render(hosting)</span>
                             <span>Firebase</span>
                         </div>
                         <div className={classes.projectIntro}>
                             <h4>About</h4>
-                            <p>Full-stack web app for users to buy a service, write reviews, etc., and for admins to add new services and process orders.</p>
+                            <p>Full-stack e-commerce web app for users to buy a service, write reviews, etc., and for admins to add new services and process orders. (Refresh the page if the services doesn't appear right away)</p>
                         </div>
                         <div className={classes.projectFeatures}>
                             <h4>Features</h4>
@@ -84,8 +84,6 @@ const ProjectModal1 = () => {
                     </Col>
                 </Row>
                 </Container>
-                {/* <button onClick={closeModal}>close</button>
-                <div>I am a modal</div> */}
                 
             </Modal>
             
